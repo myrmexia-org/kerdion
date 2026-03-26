@@ -119,9 +119,7 @@ KDV, Gelir Vergisi, SSK + İşsizlik (işveren payı)
 
 Kerdion v2'yi kendi sunucuna kurmak yerine hazır kullanmak istiyorsan:
 
-> **Kerdion** — yakında yayında
->
-> Multi-tenant, GCP / Azure / DigitalOcean / Hetzner / Twilio desteği, senaryo karşılaştırma, maliyet trendi ve daha fazlası.
+**Kerdion** — yakında yayında
 
 ---
 
