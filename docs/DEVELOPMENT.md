@@ -186,8 +186,25 @@ Net Kar (TRY) = Net Kar (USD) × TCMB kuru
 ### IAM Gereksinimleri
 
 IAM kullanıcısına şu policy'ler atanmalı:
-- `AWSBillingReadOnlyAccess`
+- `AWSPriceListServiceFullAccess`
 - `AmazonEC2ReadOnlyAccess`
+
+Veya inline policy ile sadece gerekli izinleri ver:
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "pricing:GetProducts",
+        "pricing:DescribeServices"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
 
 ### AWS Pricing API
 
