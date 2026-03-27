@@ -131,4 +131,4 @@ MIT
 
 ## Geliştiren
 
-[Myrmexia Teknoloji]
+Myrmexia Teknoloji
