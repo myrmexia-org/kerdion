@@ -1,8 +1,8 @@
 # Kerdion v2
 
-SaaS ve startup kurucuları için açık kaynaklı maliyet hesaplama aracı. AWS altyapı maliyetlerini, AI API ücretlerini, vergi yükünü ve kur etkisini tek bir hesaplamada birleştirir.
+Startup kurucuları için açık kaynaklı maliyet hesaplama aracı. AWS altyapı maliyetlerini, AI API ücretlerini, vergi yükünü ve kur etkisini tek bir hesaplamada birleştirir.
 
-![Kerdion Screenshot](docs/screenshot.png)
+![Kerdion Screenshot](frontend/public/kerdion_logo.svg)
 
 ---
 
