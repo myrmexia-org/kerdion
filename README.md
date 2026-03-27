@@ -28,6 +28,14 @@ Startup kurucuları için açık kaynaklı maliyet hesaplama aracı. AWS altyap�
 
 ---
 
+## Dokümantasyon
+
+Teknik detaylar, hesaplama mantığı, vergi dilimleri ve AWS entegrasyonu için:
+
+[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)
+
+---
+
 ## Kurulum
 
 ### Gereksinimler
