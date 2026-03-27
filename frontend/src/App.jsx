@@ -46,8 +46,12 @@ function ProtectedLayout() {
     <div className="flex min-h-screen bg-[#0f1117] text-[#f1f5f9]">
       <aside className="fixed left-0 top-0 z-10 h-full w-64 border-r border-[#2e3347] bg-[#1a1d27]">
         <div className="flex h-full flex-col p-4">
-          <div className="mb-6 border-b border-[#2e3347] pb-4 font-semibold text-[#f1f5f9]">
-            Myrmexia Cost Calculation
+          <div className="mb-6 border-b border-[#2e3347] pb-4">
+            <img
+              src="/kerdion_logo.svg"
+              alt="Kerdion"
+              className="block h-auto w-full"
+            />
           </div>
           <nav className="flex flex-col gap-1">
             <NavLink
@@ -125,8 +129,13 @@ function ProtectedLayout() {
           </nav>
         </div>
       </aside>
-      <main className="ml-64 flex-1 p-6">
-        <Outlet />
+      <main className="ml-64 flex min-h-screen flex-1 flex-col p-6">
+        <div className="flex-1">
+          <Outlet />
+        </div>
+        <footer className="mt-8 border-t border-[#2e3347] pt-4 text-center text-sm text-[#94a3b8]">
+          Myrmexia Teknoloji tarafından geliştirilmiştir
+        </footer>
       </main>
     </div>
   )

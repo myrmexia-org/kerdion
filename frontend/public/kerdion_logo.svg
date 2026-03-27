@@ -1,0 +1,38 @@
+<svg width="100%" viewBox="138 58 492 148" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+  <mask id="imagine-text-gaps-xfc2xr" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="280" fill="white"/><rect x="292" y="59.332984924316406" width="264.5584716796875" height="74.36155700683594" fill="black" rx="2"/><rect x="294" y="137.833251953125" width="216.64239501953125" height="21.472332000732422" fill="black" rx="2"/></mask></defs>
+
+  <!-- Symbol: centered hexagon + upward arrow = stability + growth -->
+  <!-- Hex center: 200, 130 -->
+
+  <!-- Outer hexagon -->
+  <polygon points="200,60 258,95 258,165 200,200 142,165 142,95" fill="none" stroke="#534AB7" stroke-width="3" style="fill:none;stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Inner hexagon -->
+  <polygon points="200,84 232,102 232,158 200,176 168,158 168,102" fill="#534AB7" opacity="0.12" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.12;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Upward arrow / delta symbol inside — kâr/artış -->
+  <!-- Triangle pointing up -->
+  <polygon points="200,96 230,156 170,156" fill="#534AB7" opacity="0.85" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Small highlight notch at top of triangle -->
+  <polygon points="200,96 215,124 185,124" fill="#7F77DD" opacity="0.6" style="fill:rgb(127, 119, 221);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Horizontal line below triangle — baseline = maliyet tabanı -->
+  <line x1="162" y1="164" x2="238" y2="164" stroke="#534AB7" stroke-width="2.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Small tick marks on baseline — hesap/ölçüm -->
+  <line x1="175" y1="164" x2="175" y2="172" stroke="#534AB7" stroke-width="1.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="200" y1="164" x2="200" y2="175" stroke="#534AB7" stroke-width="2" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="225" y1="164" x2="225" y2="172" stroke="#534AB7" stroke-width="1.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Wordmark -->
+  <text x="296" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" letter-spacing="-1" style="fill:rgb(241, 240, 235);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:62px;font-weight:700;text-anchor:start;dominant-baseline:auto">Kerdion</text>
+
+  <!-- Tagline -->
+  <text x="298" y="154" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="3.5" style="fill:rgb(136, 135, 128);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:15px;font-weight:400;text-anchor:start;dominant-baseline:auto">COST INTELLIGENCE</text>
+
+  <!-- Thin separator line -->
+  <line x1="296" y1="130" x2="620" y2="130" stroke="#534AB7" stroke-width="0.8" opacity="0.4" mask="url(#imagine-text-gaps-xfc2xr)" style="fill:rgb(0, 0, 0);stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

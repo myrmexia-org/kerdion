@@ -49,10 +49,10 @@ cp .env.example .env
 `.env` dosyasını düzenle:
 
 ```env
-POSTGRES_USER=maliyet_user
+POSTGRES_USER=kerdion_user
 POSTGRES_PASSWORD=guclu_bir_sifre
-POSTGRES_DB=maliyet_db
-DATABASE_URL=postgresql://maliyet_user:guclu_bir_sifre@db:5432/maliyet_db
+POSTGRES_DB=kerdion_db
+DATABASE_URL=postgresql://kerdion_user:guclu_bir_sifre@db:5432/kerdion_db
 SECRET_KEY=guclu_bir_secret_key
 ```
 
@@ -131,4 +131,4 @@ MIT
 
 ## Geliştiren
 
-[Myrmexia Teknoloji](https://myrmexia.com)
+[Myrmexia Teknoloji]

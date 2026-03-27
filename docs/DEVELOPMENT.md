@@ -329,7 +329,7 @@ CREATE TABLE cost_snapshots (
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_REGION=us-east-1
-DATABASE_URL=postgresql://user:password@localhost:5432/maliyet_db
+DATABASE_URL=postgresql://user:password@localhost:5432/kerdion_db
 SECRET_KEY=your_jwt_secret_key
 ```
 

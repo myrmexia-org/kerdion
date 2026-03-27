@@ -3,14 +3,16 @@ services:
     image: postgres:16-alpine
     env_file: .env
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-maliyet_user}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-maliyet_pass}
-      POSTGRES_DB: ${POSTGRES_DB:-maliyet_db}
+      POSTGRES_USER: ${POSTGRES_USER:-kerdion_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-kerdion_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-kerdion_db}
+    ports:
+      - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./db/init:/docker-entrypoint-initdb.d
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-maliyet_user} -d ${POSTGRES_DB:-maliyet_db}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-kerdion_user} -d ${POSTGRES_DB:-kerdion_db}"]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -19,7 +21,7 @@ services:
     build: .
     env_file: .env
     environment:
-      DATABASE_URL: ${DATABASE_URL:-postgresql://maliyet_user:maliyet_pass@db:5432/maliyet_db}
+      DATABASE_URL: ${DATABASE_URL:-postgresql://kerdion_user:kerdion_pass@db:5432/kerdion_db}
     depends_on:
       db:
         condition: service_healthy
