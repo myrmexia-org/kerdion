@@ -48,8 +48,8 @@ Teknik detaylar, hesaplama mantığı, vergi dilimleri ve AWS entegrasyonu için
 **1. Repoyu klonla:**
 
 ```bash
-git clone https://github.com/Sleeveless06/cost-calculator-v2.git
-cd cost-calculator-v2
+git clone https://github.com/myrmexia-org/kerdion.git
+cd kerdion-v2
 ```
 
 **2. `.env` dosyasını oluştur:**
