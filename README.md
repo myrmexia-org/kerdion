@@ -77,7 +77,7 @@ docker-compose up -d
 **4. İlk kullanıcıyı oluştur:**
 
 ```bash
-docker exec -it cost-calculator-v2-backend-1 python3 -c "
+docker exec -it kerdion-v2-backend-1 python3 -c "
 import bcrypt
 import psycopg2
 import os
